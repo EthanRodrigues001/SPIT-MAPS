@@ -167,20 +167,6 @@ export function MapControls() {
           </DropdownMenuContent>
         </DropdownMenu>
         <ThemeToggle className="bg-background! size-11 shadow-lg" />
-        <Button
-          variant="outline"
-          size="icon"
-          className="bg-background! size-11 shadow-lg"
-          asChild
-        >
-          <Link
-            href="https://github.com/ln-dev7/square-ui/tree/master/templates/maps"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github className="size-4" />
-          </Link>
-        </Button>
       </div>
 
       <div className="absolute bottom-4 right-4 z-10 flex flex-col gap-2">
